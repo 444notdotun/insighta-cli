@@ -45,8 +45,8 @@ export async function queryCommand(options) {
         p.name || "-",
         p.gender || "-",
         p.age || "-",
-        p.ageGroup || "-",
-        p.countryId || "-",
+        p.age_group || "-",
+        p.country_id || "-",
       ]);
     });
 

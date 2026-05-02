@@ -1,7 +1,7 @@
 import axios from "axios";
 import { loadCredentials, saveCredentials, clearCredentials } from "./credentials.js";
 
-const BASE_URL = process.env.INSIGHTA_API_URL || "https://your-backend-url.com";
+const BASE_URL = process.env.INSIGHTA_API_URL || "https://insighta-labs-183135031185.us-central1.run.app";
 
 const api = axios.create({
   baseURL: BASE_URL,
