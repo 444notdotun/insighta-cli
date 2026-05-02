@@ -84,7 +84,7 @@ export async function loginCommand() {
             }
         );
 
-        const githubUrl = res.headers.location;
+        const githubUrl = res.data.data.githubUrl;
 
         if (!githubUrl) {
           server.close();
